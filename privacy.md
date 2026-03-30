@@ -4,7 +4,7 @@
 
 **Effective Date: March 30, 2026**
 
-Hasan Balki ("we," "our," or "us") operates HitThePan (the "App"), a beauty product tracking application available on Apple's App Store. This Privacy Policy is available at https://hitthepan.com/privacy. Your use of the App is also governed by our Terms of Service, available at https://hitthepan.com/terms.
+Hasan Balki ("we," "our," or "us") operates HitThePan (the "App"), a beauty product tracking application available on Apple's App Store. This Privacy Policy is available at https://hitthepanapp.github.io/hitthepanapp/privacy. Your use of the App is also governed by our Terms of Service, available at https://hitthepanapp.github.io/hitthepanapp/terms.
 
 This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the App. By downloading, installing, or using the App, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not access or use the App.
 

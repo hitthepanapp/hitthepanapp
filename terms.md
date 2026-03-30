@@ -4,9 +4,9 @@
 
 **Effective Date: March 30, 2026**
 
-Please read these Terms of Service ("Terms") carefully before using the HitThePan mobile application (the "App") operated by Hasan Balki ("we," "our," or "us"). These Terms are available at https://hitthepan.com/terms.
+Please read these Terms of Service ("Terms") carefully before using the HitThePan mobile application (the "App") operated by Hasan Balki ("we," "our," or "us"). These Terms are available at https://hitthepanapp.github.io/hitthepanapp/terms.
 
-By creating an account or using the App, you agree to be bound by these Terms and our Privacy Policy, available at https://hitthepan.com/privacy. If you do not agree to these Terms, do not use the App.
+By creating an account or using the App, you agree to be bound by these Terms and our Privacy Policy, available at https://hitthepanapp.github.io/hitthepanapp/privacy. If you do not agree to these Terms, do not use the App.
 
 ---
 
@@ -169,7 +169,7 @@ If you provide feedback, suggestions, or ideas about the App, you grant us a non
 
 ## 8. Privacy
 
-Your privacy is important to us. Our collection and use of personal information is governed by our Privacy Policy, available at https://hitthepan.com/privacy. By using the App, you consent to the practices described in the Privacy Policy.
+Your privacy is important to us. Our collection and use of personal information is governed by our Privacy Policy, available at https://hitthepanapp.github.io/hitthepanapp/privacy. By using the App, you consent to the practices described in the Privacy Policy.
 
 ---
 

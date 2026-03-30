@@ -36,7 +36,7 @@ You agree to provide accurate information during registration and to keep your a
 
 ### 3.2 Account Responsibility
 
-You are responsible for all activity that occurs under your account. You must notify us immediately if you suspect unauthorized use of your account by contacting **contact@hitthepan.com**.
+You are responsible for all activity that occurs under your account. You must notify us immediately if you suspect unauthorized use of your account by contacting **hitthepanapp@gmail.com**.
 
 ### 3.3 One Account Per User
 
@@ -317,7 +317,7 @@ The App uses open-source software components. Licenses for these components are 
 
 If you have any questions about these Terms, please contact us:
 
-**Email:** contact@hitthepan.com
+**Email:** hitthepanapp@gmail.com
 
 ---
 

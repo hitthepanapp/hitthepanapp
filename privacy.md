@@ -228,7 +228,7 @@ If you are located in the European Union or European Economic Area, you have the
 - **Right to object** — Object to processing based on legitimate interests
 - **Right to withdraw consent** — Withdraw analytics consent at any time
 
-To exercise any of these rights, contact us at **contact@hitthepan.com**.
+To exercise any of these rights, contact us at **hitthepanapp@gmail.com**.
 
 ### 5.7 Rights Under CCPA/CPRA (California Users)
 
@@ -237,7 +237,7 @@ If you are a California resident, you have the right to:
 - **Right to Know** — Request disclosure of the categories and specific pieces of personal information we collect, the sources from which it is collected, the business purpose for collection, and the categories of third parties with whom it is shared
 - **Right to Delete** — Request deletion of your personal information
 - **Right to Correct** — Request correction of inaccurate personal information
-- **Right to Opt-Out of Sale/Sharing** — We do not sell your personal information and do not share it for cross-context behavioral advertising. Therefore, no opt-out is required; however, you may contact us at **contact@hitthepan.com** to confirm this at any time
+- **Right to Opt-Out of Sale/Sharing** — We do not sell your personal information and do not share it for cross-context behavioral advertising. Therefore, no opt-out is required; however, you may contact us at **hitthepanapp@gmail.com** to confirm this at any time
 - **Right to Non-Discrimination** — We will not discriminate against you for exercising your privacy rights
 
 **Categories of Personal Information Collected (per CCPA § 1798.140):**
@@ -266,11 +266,11 @@ If you are located in Brazil, you have rights under the Lei Geral de Proteção 
 
 **Legal bases for processing under LGPD:** Performance of contract (Art. 7, V) for core app functionality; consent (Art. 7, I) for analytics and crash reporting; legitimate interest (Art. 7, IX) for moderation and community safety.
 
-Contact us at **contact@hitthepan.com** to exercise these rights.
+Contact us at **hitthepanapp@gmail.com** to exercise these rights.
 
 ### 5.9 Rights Under KVKK (Turkish Users)
 
-If you are located in Turkey, you have rights under the Kişisel Verilerin Korunması Kanunu (KVKK), including the right to learn whether your personal data has been processed, to request information about processing, to learn the purpose of processing, to know third parties to whom data is transferred, to request rectification, and to request deletion. Contact us at **contact@hitthepan.com**.
+If you are located in Turkey, you have rights under the Kişisel Verilerin Korunması Kanunu (KVKK), including the right to learn whether your personal data has been processed, to request information about processing, to learn the purpose of processing, to know third parties to whom data is transferred, to request rectification, and to request deletion. Contact us at **hitthepanapp@gmail.com**.
 
 **Data Controller:** Hasan Balki, Istanbul, Turkey.
 
@@ -278,7 +278,7 @@ If you are located in Turkey, you have rights under the Kişisel Verilerin Korun
 
 ## 6. Children's Privacy
 
-The App is not directed to children under the age of 13 (or the applicable age in your jurisdiction). We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at **contact@hitthepan.com**, and we will take steps to delete such information.
+The App is not directed to children under the age of 13 (or the applicable age in your jurisdiction). We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at **hitthepanapp@gmail.com**, and we will take steps to delete such information.
 
 ---
 
@@ -324,7 +324,7 @@ Your continued use of the App after any changes constitutes your acceptance of t
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
-**Email:** contact@hitthepan.com
+**Email:** hitthepanapp@gmail.com
 
 **Response Time:** We aim to respond to all privacy-related inquiries within 30 days.
 

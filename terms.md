@@ -1,10 +1,10 @@
 # Terms of Service
 
-**Last Updated: March 30, 2026**
+**Last Updated: September 30, 2026**
 
 **Effective Date: March 30, 2026**
 
-Please read these Terms of Service ("Terms") carefully before using the HitThePan mobile application (the "App") operated by Hasan Balki ("we," "our," or "us"). These Terms are available at https://hitthepanapp.github.io/hitthepanapp/terms.
+Please read these Terms of Service ("Terms") carefully before using the Makeup Shelf: Project Pan mobile application (“Makeup Shelf” or the “App”), previously called HitThePan, operated by Hasan Balki ("we," "our," or "us"). These Terms are available at https://hitthepanapp.github.io/hitthepanapp/terms.
 
 By creating an account or using the App, you agree to be bound by these Terms and our Privacy Policy, available at https://hitthepanapp.github.io/hitthepanapp/privacy. If you do not agree to these Terms, do not use the App.
 
@@ -12,7 +12,7 @@ By creating an account or using the App, you agree to be bound by these Terms an
 
 ## 1. Overview
 
-HitThePan is a beauty product tracking application that helps users monitor their cosmetic product usage, set panning goals, track savings, and connect with friends. The App is available on Apple's App Store for iOS devices.
+Makeup Shelf is a beauty product tracking application that helps users monitor their cosmetic product usage, set panning goals, track savings, and connect with friends. The App is available on Apple's App Store for iOS devices.
 
 ---
 
@@ -52,9 +52,9 @@ The App offers a free tier with limited functionality:
 - Up to 5 active product tracking slots
 - Access to basic features including product tracking, usage logging, and achievements
 
-### 4.2 HitThePan Pro Subscription
+### 4.2 Makeup Shelf Premium Subscription
 
-Premium features are available through an auto-renewable subscription ("HitThePan Pro"):
+Premium features are available through an auto-renewable subscription ("Makeup Shelf Premium"):
 
 | Plan | Price | Billing Period |
 |------|-------|---------------|
@@ -65,7 +65,7 @@ Prices may vary by region and are displayed in your local currency in the App. P
 
 ### 4.3 Premium Features
 
-HitThePan Pro unlocks:
+Makeup Shelf Premium unlocks:
 - Unlimited product tracking
 - Full statistics and analytics
 - Savings tracking and dream rewards
@@ -159,7 +159,7 @@ The App, including its design, code, graphics, logos, icons, and content (exclud
 
 ### 7.2 Trademarks
 
-"HitThePan" and associated logos are trademarks of Hasan Balki. All other trademarks, service marks, and trade names referenced in the App are the property of their respective owners.
+“Makeup Shelf” and associated logos are trademarks of Hasan Balki. All other trademarks, service marks, and trade names referenced in the App are the property of their respective owners.
 
 ### 7.3 Feedback
 

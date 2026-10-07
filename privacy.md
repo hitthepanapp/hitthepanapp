@@ -1,12 +1,11 @@
 # Privacy Policy
 
-**Last Updated: September 30, 2026**
+**Last Updated:** October 8, 2026
+**Effective Date:** March 30, 2026
 
-**Effective Date: March 30, 2026**
+Hasan Balki ("we," "our," or "us") operates Makeup Shelf: Project Pan ("Makeup Shelf" or the "App"), a beauty product tracking application available on Apple's App Store and Google Play. The App was previously called HitThePan. This Privacy Policy is available at https://hitthepanapp.github.io/hitthepanapp/privacy. Your use of the App is also governed by our Terms of Service, available at https://hitthepanapp.github.io/hitthepanapp/terms.
 
-Hasan Balki (“we,” “our,” or “us”) operates Makeup Shelf: Project Pan (“Makeup Shelf” or the “App”), a beauty product tracking application available on Apple’s App Store. The App was previously called HitThePan. This Privacy Policy is available at https://hitthepanapp.github.io/hitthepanapp/privacy. Your use of the App is also governed by our Terms of Service, available at https://hitthepanapp.github.io/hitthepanapp/terms.
-
-This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the App. By downloading, installing, or using the App, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not access or use the App.
+This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the App on iOS or Android. By downloading, installing, or using the App, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not access or use the App.
 
 ---
 
@@ -26,6 +25,10 @@ This Privacy Policy explains how we collect, use, disclose, and safeguard your i
 - Purchase dates and prices
 - Product photos (optional)
 - Repurchase verdicts
+
+**Colour Profile and Swatch Data**
+- Your colour profile result (colour season, palette and the answers you gave during the draping test)
+- Swatch colour values you save for your products (stored as colour codes, not photos)
 
 **Financial Tracking Data**
 - Saved purchase records (product name, brand, amount, reason)
@@ -58,15 +61,25 @@ This Privacy Policy explains how we collect, use, disclose, and safeguard your i
 
 **Device Identifiers**
 - Unique user identifier (UUID) generated at account creation
-- No advertising identifiers are collected
+- No advertising identifiers are collected (no IDFA on iOS, no Advertising ID on Android)
 
-### 1.3 Information We Do NOT Collect
+### 1.3 Camera and On-Device Processing
+
+The App uses your device camera for the following features: Mirror, Colour Profile draping test, Product Check, swatch capture, and product photos.
+
+- Camera frames used by Mirror, the Colour Profile draping test, Product Check and swatch capture are processed **on your device only**. They are not uploaded to our servers or shared with third parties.
+- Only the results you choose to save — such as your colour season, palette and swatch colour values — are stored with your account.
+- Product, diary and avatar photos you take are stored on your device (see Section 4.1).
+
+Camera access is only requested when you open a camera feature, and you can revoke it at any time in your device settings.
+
+### 1.4 Information We Do NOT Collect
 
 - We do not collect precise geolocation data
 - We do not collect contacts or address book data
 - We do not collect browsing history
 - We do not collect health or fitness data
-- We do not collect financial or payment card information (all payments are processed by Apple through the App Store)
+- We do not collect financial or payment card information (all payments are processed by Apple through the App Store or by Google through Google Play Billing)
 - We do not use advertising identifiers or track users across apps
 
 ---
@@ -76,11 +89,11 @@ This Privacy Policy explains how we collect, use, disclose, and safeguard your i
 We use the information we collect for the following purposes:
 
 | Purpose | Legal Basis (GDPR) |
-|---------|-------------------|
+|---|---|
 | Provide and maintain the App's core functionality | Performance of contract |
 | Create and manage your account | Performance of contract |
-| Sync your data across sessions | Performance of contract |
-| Process subscription purchases (via Apple) | Performance of contract |
+| Sync your data across sessions and devices | Performance of contract |
+| Process subscription purchases (via Apple App Store or Google Play) | Performance of contract |
 | Enable social features (friends, leaderboard) | Performance of contract |
 | Send local notification reminders (with permission) | Consent |
 | Analyze app usage to improve features | Consent |
@@ -95,7 +108,6 @@ We use the information we collect for the following purposes:
 We use the following third-party services to operate the App:
 
 ### 3.1 Supabase (Database & Authentication)
-
 - **Purpose:** Cloud database, user authentication, and real-time data synchronization
 - **Data processed:** All user-generated content, account information, social connections
 - **Data location:** Supabase infrastructure (AWS)
@@ -119,26 +131,27 @@ We use the following third-party services to operate the App:
 - **Data processed:** Device metadata for targeting (no personal data)
 
 ### 3.3 RevenueCat
-
-- **Purpose:** Subscription management and entitlement verification
+- **Purpose:** Subscription management and entitlement verification on iOS and Android
 - **Data processed:** User identifier, subscription status, purchase events
 - **Data location:** RevenueCat infrastructure
 - **Privacy policy:** https://www.revenuecat.com/privacy
 
-### 3.4 Apple Sign-In
+### 3.4 Apple App Store and Google Play
+- **Purpose:** Processing subscription payments
+- **Data processed:** Payment and purchase information is handled entirely by Apple or Google; we never receive your payment card details
+- **Privacy policies:** https://www.apple.com/legal/privacy/ and https://policies.google.com/privacy
 
-- **Purpose:** User authentication
+### 3.5 Apple Sign-In
+- **Purpose:** User authentication (available on iOS and Android)
 - **Data processed:** Name, email address (may be relayed/hidden per user preference)
 - **Privacy policy:** https://www.apple.com/legal/privacy/
 
-### 3.5 Google Sign-In
-
-- **Purpose:** User authentication
+### 3.6 Google Sign-In
+- **Purpose:** User authentication (available on iOS and Android)
 - **Data processed:** Name, email address, profile identifier
 - **Privacy policy:** https://policies.google.com/privacy
 
-### 3.6 Open Beauty Facts
-
+### 3.7 Open Beauty Facts
 - **Purpose:** Product barcode lookup (optional feature)
 - **Data processed:** Barcode numbers only; no personal data is sent
 - **Privacy policy:** https://world.openbeautyfacts.org/terms-of-use
@@ -150,37 +163,38 @@ We use the following third-party services to operate the App:
 ### 4.1 Where Your Data Is Stored
 
 | Storage Location | Data Types | Encryption |
-|-----------------|------------|------------|
-| Supabase (Cloud) | Account data, products, usage logs, diary text, social data, purchases, dreams, badges, routines | Encrypted in transit (TLS) and at rest |
-| Device — CoreData | Diary photos and thumbnails | iOS file protection (NSFileProtectionComplete) |
-| Device — File System | Product images, dream images, avatar photo | iOS file protection |
-| Device — Keychain | Authentication tokens, user ID | iOS Keychain encryption (hardware-backed) |
-| Device — UserDefaults | Preferences (dark mode, reminders, consent) | Standard iOS protection |
+|---|---|---|
+| Supabase (Cloud) | Account data, products, usage logs, diary text, social data, purchases, dreams, badges, routines, colour profile results, swatch colour values | Encrypted in transit (TLS) and at rest |
+| iOS — CoreData | Diary photos and thumbnails | iOS file protection (NSFileProtectionComplete) |
+| iOS — File System | Product images, dream images, avatar photo | iOS file protection |
+| iOS — Keychain | Authentication tokens, user ID | iOS Keychain encryption (hardware-backed) |
+| iOS — UserDefaults | Preferences (dark mode, reminders, consent) | Standard iOS protection |
+| Android — App-private database and storage | Diary photos and thumbnails, product images, dream images, avatar photo | Android app sandbox (not accessible to other apps); device encryption |
+| Android — Encrypted preferences | Authentication tokens, user ID | AES-GCM encryption with a key held in the Android Keystore (hardware-backed where available) |
+| Android — App preferences | Preferences (dark mode, reminders, consent) | Android app sandbox |
 
 ### 4.2 Security Measures
-
 - All network communication uses HTTPS/TLS encryption
-- Authentication tokens are stored in the iOS Keychain with `.whenUnlockedThisDeviceOnly` accessibility
-- Local database files use iOS file protection (complete encryption when device is locked)
+- On iOS, authentication tokens are stored in the iOS Keychain with `.whenUnlockedThisDeviceOnly` accessibility; on Android, they are encrypted with a key held in the Android Keystore
+- Local files are protected by the operating system (iOS file protection; Android app sandbox and device encryption)
 - Row-Level Security (RLS) policies ensure users can only access their own data on our backend
 - API rate limiting prevents abuse (120 requests/minute general, 30 requests/minute for write operations)
 - A privacy screen (blur overlay) is applied when the app moves to the background to protect visible content
 
 ### 4.3 Data Retention
-
 - **Account data:** Retained until you delete your account
-- **Product and usage data:** Retained until you delete the specific item or your account
+- **Product, usage, colour profile and swatch data:** Retained until you delete the specific item or your account
 - **Analytics data:** 14 months (Firebase default), collected only with your consent
 - **Crash reports:** 90 days (Firebase Crashlytics default), collected only with your consent
 - **User reports:** Retained for up to 2 years from the date of submission, or longer if required for ongoing investigations or legal proceedings
 - **Temporary export files:** Deleted automatically after download
+- **Camera frames:** Not retained; processed on-device in real time
 
 ---
 
 ## 5. Your Rights and Choices
 
 ### 5.1 Analytics Consent
-
 When you first open the App, you will be asked whether to allow anonymous analytics. You can:
 - **Allow** analytics to help us improve the App
 - **Deny** analytics to prevent any usage data from being collected
@@ -188,38 +202,38 @@ When you first open the App, you will be asked whether to allow anonymous analyt
 If denied, Firebase Analytics and Crashlytics are fully disabled. You can withdraw or change your analytics consent at any time through the Analytics toggle in **Profile > Preferences**, which re-displays the consent prompt. Withdrawing consent is as easy as giving it, in accordance with GDPR Article 7(3).
 
 ### 5.2 Notification Preferences
-
 You can enable or disable daily reminder notifications in the App's settings. These are local notifications only; we do not send remote push notifications.
 
 ### 5.3 Data Portability (GDPR Article 20)
-
 You can export all your data at any time through the App:
-- Navigate to **Profile > Export Data**
-- A CSV file is generated containing your profile, products, usage logs, saved purchases, dream rewards, and badge progress
-- Save the file to your preferred location
+1. Navigate to **Profile > Export Data**
+2. A CSV file is generated containing your profile, products, usage logs, saved purchases, dream rewards, and badge progress
+3. Save the file to your preferred location
 
+<a id="delete-account"></a>
 ### 5.4 Account Deletion (GDPR Article 17)
 
-You can permanently delete your account and all associated data:
-- Navigate to **Profile > Delete Account**
-- Confirm deletion through a two-step confirmation process
-- All data is permanently erased from our servers and your device, including:
-  - All products, usage logs, diary entries, and photos
-  - All social connections and reports
-  - All saved purchases and dream rewards
-  - Your authentication record
-  - All local files, cached data, and preferences
+**In the App:** You can permanently delete your account and all associated data:
+1. Navigate to **Profile > Delete Account**
+2. Confirm deletion through a two-step confirmation process
 
-This action is irreversible. Once deleted, your data cannot be recovered.
+**Without the App:** You can also request deletion of your account and all associated data by emailing **hitthepanapp@gmail.com** from the email address linked to your account, with the subject **"Delete my account"**. We will verify the request and delete your account and all associated data within 30 days, and confirm by email when it is done.
+
+All data is permanently erased from our servers and your device, including:
+- All products, usage logs, diary entries, and photos
+- Your colour profile results and swatch data
+- All social connections and reports
+- All saved purchases and dream rewards
+- Your authentication record
+- All local files, cached data, and preferences
+
+This action is irreversible. Once deleted, your data cannot be recovered. Deleting your account does not cancel an active subscription; please cancel it in your Apple ID settings (iOS) or in Google Play > Payments & subscriptions (Android).
 
 ### 5.5 Data Reset
-
 You can reset all your content data without deleting your account through **Profile > Reset Data**. This removes all products, logs, and content while preserving your account.
 
 ### 5.6 Rights Under GDPR (EU/EEA Users)
-
 If you are located in the European Union or European Economic Area, you have the following rights:
-
 - **Right of access** — Request a copy of all personal data we hold about you
 - **Right to rectification** — Update or correct your personal data through the App
 - **Right to erasure** — Delete your account and all associated data
@@ -228,22 +242,20 @@ If you are located in the European Union or European Economic Area, you have the
 - **Right to object** — Object to processing based on legitimate interests
 - **Right to withdraw consent** — Withdraw analytics consent at any time
 
-To exercise any of these rights, contact us at **hitthepanapp@gmail.com**.
+To exercise any of these rights, contact us at hitthepanapp@gmail.com.
 
 ### 5.7 Rights Under CCPA/CPRA (California Users)
-
 If you are a California resident, you have the right to:
-
 - **Right to Know** — Request disclosure of the categories and specific pieces of personal information we collect, the sources from which it is collected, the business purpose for collection, and the categories of third parties with whom it is shared
 - **Right to Delete** — Request deletion of your personal information
 - **Right to Correct** — Request correction of inaccurate personal information
-- **Right to Opt-Out of Sale/Sharing** — We do not sell your personal information and do not share it for cross-context behavioral advertising. Therefore, no opt-out is required; however, you may contact us at **hitthepanapp@gmail.com** to confirm this at any time
+- **Right to Opt-Out of Sale/Sharing** — We do not sell your personal information and do not share it for cross-context behavioral advertising. Therefore, no opt-out is required; however, you may contact us at hitthepanapp@gmail.com to confirm this at any time
 - **Right to Non-Discrimination** — We will not discriminate against you for exercising your privacy rights
 
 **Categories of Personal Information Collected (per CCPA § 1798.140):**
 
 | CCPA Category | Examples | Business Purpose |
-|---------------|----------|-----------------|
+|---|---|---|
 | Identifiers | Name, email, user ID, username | Account management |
 | Commercial Information | Purchase records, subscription status | Service delivery |
 | Internet/Electronic Activity | App usage events, screens viewed | Analytics (with consent) |
@@ -253,9 +265,7 @@ If you are a California resident, you have the right to:
 We do not sell personal information. We do not share personal information for cross-context behavioral advertising as defined under the California Privacy Rights Act (CPRA).
 
 ### 5.8 Rights Under LGPD (Brazilian Users)
-
 If you are located in Brazil, you have rights under the Lei Geral de Proteção de Dados (LGPD), including:
-
 - **Confirmation and access** — Confirm whether we process your data and request access
 - **Correction** — Request correction of incomplete, inaccurate, or outdated data
 - **Anonymization, blocking, or deletion** — Request anonymization or deletion of unnecessary or excessive data
@@ -266,11 +276,10 @@ If you are located in Brazil, you have rights under the Lei Geral de Proteção 
 
 **Legal bases for processing under LGPD:** Performance of contract (Art. 7, V) for core app functionality; consent (Art. 7, I) for analytics and crash reporting; legitimate interest (Art. 7, IX) for moderation and community safety.
 
-Contact us at **hitthepanapp@gmail.com** to exercise these rights.
+Contact us at hitthepanapp@gmail.com to exercise these rights.
 
 ### 5.9 Rights Under KVKK (Turkish Users)
-
-If you are located in Turkey, you have rights under the Kişisel Verilerin Korunması Kanunu (KVKK), including the right to learn whether your personal data has been processed, to request information about processing, to learn the purpose of processing, to know third parties to whom data is transferred, to request rectification, and to request deletion. Contact us at **hitthepanapp@gmail.com**.
+If you are located in Turkey, you have rights under the Kişisel Verilerin Korunması Kanunu (KVKK), including the right to learn whether your personal data has been processed, to request information about processing, to learn the purpose of processing, to know third parties to whom data is transferred, to request rectification, and to request deletion. Contact us at hitthepanapp@gmail.com.
 
 **Data Controller:** Hasan Balki, Istanbul, Turkey.
 
@@ -278,14 +287,13 @@ If you are located in Turkey, you have rights under the Kişisel Verilerin Korun
 
 ## 6. Children's Privacy
 
-The App is not directed to children under the age of 13 (or the applicable age in your jurisdiction). We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at **hitthepanapp@gmail.com**, and we will take steps to delete such information.
+The App is not directed to children under the age of 13 (or the applicable age in your jurisdiction). We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at hitthepanapp@gmail.com, and we will take steps to delete such information.
 
 ---
 
 ## 7. Social Features and Public Information
 
 ### 7.1 Public Profiles
-
 If you enable a public profile, the following information may be visible to other users:
 - Display name
 - Username
@@ -295,11 +303,9 @@ If you enable a public profile, the following information may be visible to othe
 You can disable your public profile at any time through **Profile > Account > Public Profile**.
 
 ### 7.2 Friend Connections
-
 When you connect with friends, they can view your public profile information and leaderboard rankings. You can remove friends, block users, or report inappropriate behavior at any time.
 
 ### 7.3 Reporting and Blocking
-
 When you report a user, your report (including the reason you provide) is stored for moderation purposes. When you block a user, that user can no longer see your profile, send friend requests, or interact with you. Reports are reviewed to maintain community safety.
 
 ---
@@ -324,9 +330,8 @@ Your continued use of the App after any changes constitutes your acceptance of t
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
-**Email:** hitthepanapp@gmail.com
-
-**Response Time:** We aim to respond to all privacy-related inquiries within 30 days.
+- **Email:** hitthepanapp@gmail.com
+- **Response Time:** We aim to respond to all privacy-related inquiries within 30 days.
 
 For GDPR-related requests, you also have the right to lodge a complaint with your local data protection authority.
 
@@ -334,17 +339,21 @@ For GDPR-related requests, you also have the right to lodge a complaint with you
 
 ## 11. Supplementary Technical Information
 
-### 11.1 API Usage Declarations
-
-As required by Apple, the App declares usage of the following system APIs in its privacy manifest:
+### 11.1 iOS API Usage Declarations
+As required by Apple, the iOS App declares usage of the following system APIs in its privacy manifest:
 - **UserDefaults** — For storing user preferences and app settings
 - **File Timestamp** — For managing cached files
 - **Disk Space** — For ensuring sufficient storage before saving photos
 
-### 11.2 Encryption
+### 11.2 Android Permissions
+The Android App requests only the permissions it needs:
+- **Camera** — Product photos, Mirror, Colour Profile draping test, Product Check and swatch capture (processed on-device)
+- **Notifications** — Daily reminder notifications (Android 13 and later; you can decline)
+- **Internet and network state** — Syncing your data with our backend
+- **Billing** — Subscription purchases through Google Play
 
-The App does not use non-exempt encryption. All encryption is provided by standard iOS frameworks (HTTPS/TLS) and third-party services.
+### 11.3 Encryption
+The App does not use non-exempt encryption. All encryption is provided by standard platform frameworks (HTTPS/TLS, iOS Keychain, Android Keystore) and third-party services.
 
-### 11.3 Tracking
-
-The App does not track users across other companies' apps or websites. `NSPrivacyTracking` is set to `false` in our privacy manifest. No advertising identifiers (IDFA) are collected.
+### 11.4 Tracking
+The App does not track users across other companies' apps or websites. On iOS, `NSPrivacyTracking` is set to `false` in our privacy manifest and no advertising identifier (IDFA) is collected. On Android, the App does not use the Android Advertising ID.
